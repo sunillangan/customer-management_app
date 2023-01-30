@@ -40,22 +40,7 @@
 
   <build>
     <finalName>springappdemo</finalName>
-<resources>
-		<resource>
-        <directory>springappdemo/src/main/webapp</directory>
-        <filtering>true</filtering>
-      </resource>
-	<resource>
-        <directory>src/main/webapp</directory>
-        <filtering>true</filtering>
-      </resource>
-    <resource>
-    <directory>springappdemo/src/main/webapp</directory>
-    <includes>
-    <include>**/*.java</include>
-    </includes>
-    </resource>
-</resources>
+
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
