@@ -36,6 +36,10 @@
   <build>
     <finalName>springappdemo</finalName>
 <resources>
+	<resource>
+        <directory>src/main/webapp</directory>
+        <filtering>true</filtering>
+      </resource>
     <resource>
     <directory>springappdemo/src</directory>
     <includes>
