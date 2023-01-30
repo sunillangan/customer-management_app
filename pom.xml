@@ -36,12 +36,16 @@
   <build>
     <finalName>springappdemo</finalName>
 <resources>
+		<resource>
+        <directory>springappdemo/src/main/webapp</directory>
+        <filtering>true</filtering>
+      </resource>
 	<resource>
         <directory>src/main/webapp</directory>
         <filtering>true</filtering>
       </resource>
     <resource>
-    <directory>springappdemo/src</directory>
+    <directory>springappdemo/src/main/webapp</directory>
     <includes>
     <include>**/*.java</include>
     </includes>
