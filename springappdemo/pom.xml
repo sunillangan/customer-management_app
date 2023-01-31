@@ -35,13 +35,6 @@
 
   <build>
     <finalName>springappdemo</finalName>
-	  <resources>
-    <resource>
-    <directory>src</directory>
-    <includes>
-    <include>**/*.java</include>
-    </includes>
-    </resource>
     <pluginManagement>
       <plugins>
         <plugin>
